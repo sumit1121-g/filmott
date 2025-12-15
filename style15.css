@@ -107,4 +107,24 @@ footer {
     font-size: 0.9rem;
     margin-top: 40px;
     color: #888;
+
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Ensures visited links also remain black and without an underline */
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* Optional: You can add hover and active states if you want an effect when interacted with */
+a:hover {
+    color: rgb(255, 255, 255); /* Changes color to gray on hover */
+}
+
+a:active {
+    color: rgb(255, 255, 255); /* Stays gray while being clicked */
 }
