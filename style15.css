@@ -1,0 +1,110 @@
+/* --- Global Styling --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+/* --- Header --- */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(45deg, #ff0055, #5511ff);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* --- Navigation Bar --- */
+nav {
+    background: #222;
+    padding: 15px 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ff0055;
+}
+
+/* --- Content Sections --- */
+.content-section {
+    padding: 40px 20px;
+}
+
+.content-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* --- Card Layout for Movies/Series --- */
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: #222;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin-top: 15px;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    font-size: 0.9rem;
+    margin-top: 40px;
+    color: #888;
+}
